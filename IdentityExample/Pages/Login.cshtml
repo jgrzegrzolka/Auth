@@ -1,0 +1,14 @@
+﻿@page
+@model IdentityExample.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<form method="post">
+    Login:
+    <input asp-for="Login" />
+    Password:
+    <input asp-for="Password" />
+    <input type="submit" />
+</form>
+
